@@ -24,9 +24,11 @@
 			<!-- Navbar -->
 			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
 				<div class="container">
-					<a class="navbar-brand" href="#inicio">
-						<!-- Home Icon -->
-						<img src="/img/logotec-sinfondo.png" alt="Logo" class="logotec">
+					<!-- Home Icon -->
+					<svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+							<rect width="24" height="24" fill="none" />
+							<path fill="currentColor" d="M10 20v-6h4v6h5v-8h3L12 3L2 12h3v8z" />
+						</svg>
 					</a>
 					<button
 						class="navbar-toggler"
