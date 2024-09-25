@@ -254,20 +254,28 @@
 				<section id="preguntas" class="pt-10">
 					<h1>Sus preguntas</h1>
 					<div class="preguntas">
-						<?php
-						$connection = mysqli_connection("localhost","testing","[DLffplfk0NAJN0!","charla");
-						$query = mysqli_query($connection,"SELECT * FROM questions");
-						foreach($query as $item => $value){
-							echo "<div class="col-sm-6">";
-							echo "	<div class="card">";
-							echo "	<div class="card-body">";
-							echo "		<h5 class="card-title">{$value["question"]}</h5>";
-							echo "		<p class="card-text">{$value["answer"]}</p>";
-							echo "	</div>";
-							echo "	</div>";
-							echo "</div>";
-						}
-						?>
+										<?php
+					include_once("connection.php");
+													
+					$query = mysqli_query($connection, "SELECT * FROM questions");
+					if (!$query) {
+					    die("Query failed: " . mysqli_error($connection));
+					}
+					
+					echo "<div class='row'>";
+					foreach ($query as $item => $value) {
+					    echo "<div class='col-sm-6'>";
+					    echo "    <div class='card'>";
+					    echo "        <div class='card-body'>";
+					    echo "            <h5 class='card-title'>{$value['question']}</h5>";
+					    echo "            <p class='card-text'>{$value['answer']}</p>";
+					    echo "        </div>";
+					    echo "    </div>";
+					    echo "</div>";
+					}
+					echo "</div>";
+					?>
+						
 					</div>						
 				</section>
 				
