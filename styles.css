@@ -21,9 +21,10 @@ html, body {
     padding: 1rem 1.5rem;
 }
 
-.navbar-brand svg {
-    width: 1.5em;
-    height: 1.5em;
+
+.logotec{
+    width: 45%;
+    height: auto;
 }
 
 /* Secciones */

@@ -26,10 +26,7 @@
 				<div class="container">
 					<a class="navbar-brand" href="#inicio">
 						<!-- Home Icon -->
-						<svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-							<rect width="24" height="24" fill="none" />
-							<path fill="currentColor" d="M10 20v-6h4v6h5v-8h3L12 3L2 12h3v8z" />
-						</svg>
+						<img src="/img/logotec-sinfondo.png" alt="Logo" class="logotec">
 					</a>
 					<button
 						class="navbar-toggler"
@@ -190,67 +187,100 @@
 				<section id="recursos" class="pt-10">
 					<h1 class="text-center text-body-emphasis mt-5">Recursos</h1>
 					<p class="fs-5 col-md-8 mx-auto text-center">
-						Aqui, dejaremos material que creemos que les puede servir para conocer y entender un poco de lo que van a ver año a año de esta especialidad.
+						Aquí te dejamos material que creemos útil para conocer y entender un poco más lo que verás en cada año de la especialidad en programación.
 					</p>
-
+				
 					<div class="accordion accordion-flush" id="accordionFlushExample">
 						<div class="accordion-item">
-						  <h2 class="accordion-header">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-							  4to año
-							</button>
-						  </h2>
-						  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-							<div class="accordion-body">
-								<p> • Ejemplohttps://portalacademico.cch.unam.mx/cibernetica1/analisis-y-diseno-en-poo/pseudocodigo-y-diagramas-de-flujo</p>
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+									4to Año
+								</button>
+							</h2>
+							<div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">
+									<ul>
+										<li>
+											<strong>Pseudocódigo y Diagramas de flujo</strong>. Introducción a los conceptos basicos.<br>
+											Link: <a href="https://portalacademico.cch.unam.mx/cibernetica1/analisis-y-diseno-en-poo/pseudocodigo-y-diagramas-de-flujo">https://portalacademico.cch.unam.mx/cibernetica1/analisis-y-diseno-en-poo/pseudocodigo-y-diagramas-de-flujo</a>
+										</li>
+									</ul>
+								</div>
 							</div>
-						  </div>
 						</div>
-						<div class="accordion-item">
-						  <h2 class="accordion-header">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-								5to año
-							</button>
-						  </h2>
-						  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-							<div class="accordion-body">
-								<p> • Plataforma para aprender idiomas. Link: https://es.duolingo.com/</p>
-								<p> • Video introductorio al HTML. Link: https://www.youtube.com/watch?v=MJkdaVFHrto</p>
-								<p> • Video introductorio al CSS. Link: https://www.youtube.com/watch?v=wZniZEbPAzk</p>
-							</div>
-						  </div>
-						</div>
-						
+				
 						<div class="accordion-item">
 							<h2 class="accordion-header">
-							  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-								6to año
-							  </button>
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+									5to Año
+								</button>
+							</h2>
+							<div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">
+									<ul>
+										<li>
+											<strong>Duolingo</strong>. Plataforma para aprender idiomas.<br>
+											Link: <a href="https://es.duolingo.com/">https://es.duolingo.com/</a>
+										</li>
+										<li>
+											<strong>Youtube</strong>. Video tutorial de HTML <br>
+											Link: <a href="https://www.youtube.com/watch?v=MJkdaVFHrto">https://www.youtube.com/watch?v=MJkdaVFHrto</a>
+										</li>
+										<li>
+											<strong>Youtube</strong>. Video tutorial de CSS <br>
+											Link: <a href="https://www.youtube.com/watch?v=wZniZEbPAzk">https://www.youtube.com/watch?v=wZniZEbPAzk</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+				
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+									6to Año
+								</button>
 							</h2>
 							<div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-							  <div class="accordion-body">
-								<p> • Plataforma gratuita de cursos de lenguajes de programación. Link: https://www.codecademy.com/</p>
-							  </div>
+								<div class="accordion-body">
+									<ul>
+										<li>
+											<strong>Codecademy</strong>. Plataforma de cursos gratuitos de programación. <br>
+											Link: <a href="https://www.codecademy.com/">https://www.codecademy.com/</a>
+										</li>
+										<li>
+											<strong>Udemy</strong>. Plataforma de cursos profesionales. <br>
+											Link: <a href="https://www.udemy.com/">https://www.udemy.com/</a>
+										</li>
+									</ul>
+								</div>
+							</div>
 						</div>
 						<div class="accordion-item">
 							<h2 class="accordion-header">
-							  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-								  7mo año
-							  </button>
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+									7mo año
+								</button>
 							</h2>
 							<div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-							  <div class="accordion-body">
-								<p>Les dejamos algunos links de herramientas útiles para organización de proyectos y asignación de tareas:</p>
-								<p> • Notion. Herramienta para organizar proyectos, asignar responsabilidades, mantener registro de progreso de tareas. <br>
-									  Link: https://www.notion.so/help/guides/everything-you-can-do-with-notion-ai</p>
-								<p> • Trello. Herramienta para crear tableros de proyecto.
-									  Link: https://trello.com/es</p>
-							  </div>
+								<div class="accordion-body">
+									<ul>
+										<li>
+											<strong>Notion</strong>. Herramienta para organizar proyectos, asignar responsabilidades, mantener registro de progreso de tareas.
+											<br>Link: <a href="https://www.notion.so/help/guides/everything-you-can-do-with-notion-ai" target="_blank">https://www.notion.so/help/guides/everything-you-can-do-with-notion-ai</a>
+										</li>
+										<li>
+											<strong>Trello</strong>. Herramienta para crear tableros de proyecto.
+											<br>Link: <a href="https://trello.com/es" target="_blank">https://trello.com/es</a>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
+						
 					</div>
-
 				</section>
+				
 				<section id="preguntas" class="pt-10">
 					<h1>Sus preguntas</h1>
 					<div class="preguntas">
